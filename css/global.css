@@ -35,6 +35,10 @@ table {
 	margin: 40px auto;
 }
 
+#padded {
+	padding: 3px;
+}
+
 td {
 	text-align: center;
 	padding: 0px;
