@@ -19,10 +19,15 @@ a:hover {
 }
 
 table {
-	margin: 20px 0;
+	margin: 20px auto;
 	table-layout: fixed;
 	width: 100%; /* must have this set */
 	clear: both;
+	padding: 100px;
+}
+
+.table-fix {
+	margin: 60px auto;
 }
 
 td {
@@ -93,12 +98,12 @@ FOR HEADER ELEMENTS:
 
 
 /* =====================================
-FOR FEATURE CAROUSEL
+FOR IMAGES
 */
 .image {
 	width: 100%;
 	height: auto;
-	/*display: block;*/
+	display: block;
 	margin: 0 auto;
 }
 
