@@ -30,6 +30,11 @@ table {
 	margin: 60px auto;
 }
 
+.table-small {
+	width: 60%;
+	margin: 40px auto;
+}
+
 td {
 	text-align: center;
 	padding: 0px;
