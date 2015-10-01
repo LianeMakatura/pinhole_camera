@@ -38,10 +38,11 @@ td {
 
 /*horizontal line*/
 hr {
-  width: 10vw;
+  width: 200px;
   height: 2px;
   margin-right: auto;
   margin-left: auto;
+  color: #d3d3d3;
 }
 
 p {
@@ -57,6 +58,11 @@ p {
     float: none;
     margin: 0 auto;
 }
+
+#gray {
+	background-color: #f1f1f1;
+}
+
 
 /* =====================================
 FOR HEADER ELEMENTS:
