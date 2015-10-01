@@ -64,7 +64,16 @@
 			<div id="gray">
 				<a name="design_construction"></a>
 				<h1 id="section-header"> DESIGN & CONSTRUCTION </h1>
+
 				<div class="col-md-10 col-centered">
+
+					<p> To start designing our camera, we followed the instructions that were set out in the given <a href="http://www.cs.dartmouth.edu/~wjarosz/courses/cs89-fa15/pa1.html">assignment description</a>. 
+					For our digital camera, we used a Canon PowerShot A560. We were limited by the fact that this camera is roughly 10 years old, and is fairly basic. The most impactful restriction was the fact that the length of the shutter speed maxed out at 15 seconds, so we were unable to counter-act dim lighting conditions by increasing the exposure time any further. However, we were able to compensate for this by setting the exposure to +2, and by increasing the ISO from 80 to 200.</p>
+
+					<p>We used a printer paper box for the basis of our pinhole camera, which was approximately 455mm D x 300mm W x 250mm H. Using the formula given in section 3 of the project assignment, we arrived at the following measurement for our ideal pinhole size:</p>
+						<p>1.9(f*lambda)^(1/2) = 1.9(455mm*550nm)^(1/2) = 0.94mm</p>
+					<p>With this measurement in hand, we began our experiments with pinholes of the following sizes: 0.1mm, 1mm, and 2mm. However, after a few rounds of experimentation, we found that the 0.1mm pinhole (and other similar options less than 1mm) simply didn't allow enough light into the box to make it a feasible choice, particularly given the limitations of the digital camera we were using to capture the images inside the box. Thus, we decided to continue our experiementation with pinholes of size 1mm, 2mm, and 4mm. All of our results will reflect this decision. </p>
+					</p>
 					<h6 id="section-header-small-top"> INITIAL DESIGN </h6>
 					<table>
 						<tr>
@@ -90,7 +99,7 @@
 					<hr/>
 
 					<p>
-						This was the first iteration of our pinhole camera, which posed a few issues for us -- namely, the index cards that we used for our pinholes were not thick enough to effectively block out the surrounding light, so we were unable to obtain an image. Our box was also letting in too much light, and the tape that was exposed inside of the camera was far too reflective, so it created strange artifacts in our image.
+						This was the first iteration of our pinhole camera, in which we covered the interior of the box and it's lid with with black paper, and included a white paper screen on the back wall, where the image would be projected. We cut two holes in the front face of the box, which allowed for our various apertures (in the rectangular opening) and the lens of our digital camera (in the circular opening). We quickly found that this design posed a few issues for us -- namely, the index cards that we used for our pinholes were not thick enough to effectively block out the surrounding light, so we were unable to obtain an image. Our box was also letting in too much light, and the tape that was exposed inside of the camera was far too reflective, so it created strange artifacts in our image.
 					</p>
 
 				</div>
@@ -173,7 +182,7 @@
 				<hr/>
 
 				<p>
-					This series of images was taken by placing our camera on the wall outside of Kemeny Hall, and pointing it down toward Moore Hall. We chose this location because there was a decent amount of sunlight, and also some great contrast between different elements of the scene. For this particular series, we tried to implement one of Professor Jarosz's suggestions, which involved placing a cone (or in our case, a cylinder) around the pinhole to very clearly define our field of view. This helped us to determine where exactly our image was being projected inside the camera, which allowed us to optimize the positioning of the digital camera in later photoshoots.
+					This series of images was taken by placing our camera on the wall outside of Kemeny Hall, and pointing it down toward Moore Hall. We chose this location because there was a decent amount of sunlight, and also some great contrast between different elements of the scene. For this particular series, we tried to implement one of Professor Jarosz's suggestions, which involved placing a cone (or in our case, a cylinder) around the pinhole to very clearly define our field of view. This helped us to determine where exactly our image was being projected inside the camera, which allowed us to optimize the positioning of the digital camera in later photoshoots. As is to be expected, the images become considerably blurrier as you move from 1mm aperture (which is remarkably clear) to the larger 4mm aperture (which is quite fuzzy). Similarly, the overall brightness of the image increases dramatically as you move from the smaller aperture to the larger ones.
 				</p>
 			</div>
 
